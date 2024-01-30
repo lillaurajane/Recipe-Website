@@ -147,3 +147,126 @@ i {
     flex-direction: column;
     width: 450px;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 20px;
+}
+
+/* Section 1: Popular in December */
+section {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center; 
+    height: 100%; 
+  }
+
+section > div > div {
+  margin: 10px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd; 
+}
+
+
+
+.popular-december button {
+    background-color: plum; 
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popular-december button i {
+    margin-right: 8px;
+  }
+  
+  .popular-december button:hover {
+    background-color: pink; 
+  }
+
+/* Section 2: Recipe Cards */
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: calc(33.333% - 20px); 
+    margin: 0 10px; 
+    display: inline-block;
+  }
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 0;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+/* Section 3: Benefits of Cooking at Home */
+section > div {
+  justify-content: space-between;
+}
+
+section > div > div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Responsive styling for larger screens */
+@media (min-width: 768px) {
+  /* Section 1: Popular in December */
+  section > div {
+    flex-direction: row;
+  }
+
+  /* Section 3: Benefits of Cooking at Home */
+  section > div {
+    flex-direction: row;
+  }
+
+  section > div > div {
+    width: calc(33.333% - 20px);
+    display: inline-block;
+  }
+}
+
+  
+  
