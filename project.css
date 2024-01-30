@@ -110,6 +110,7 @@ i {
 }
 
 .allrecipes {
+    font-family: Arial, Helvetica, sans-serif;
     border: 2px;
     border-style: solid;
     padding: 5px;
@@ -120,7 +121,7 @@ i {
 #searchBar {
     padding: 5px;
     margin-left: 20px;
-    height: 20px;
+    height: 30px;
 }
 
 #searchBar input[type=text] {
