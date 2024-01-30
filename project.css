@@ -127,7 +127,10 @@ i {
 }
 
 #recipemonth {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: 'IBM Plex Sans'; */
+    font-family: 'Lora', serif;
+    /* font-family: 'Poppins', sans-serif; */
     display: flex;
     /* margin-left: 20px;*/
     margin-top: 30px;
