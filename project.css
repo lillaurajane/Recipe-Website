@@ -410,7 +410,8 @@ h4.username{
 .footer-email-form button {
   padding: 10px 20px;
   height: 40px;
-  background-color: dodgerblue;
+  background-color: plum;
+  border-radius: 8px;
   border: none;
   color: white;
 }
