@@ -188,7 +188,7 @@ section img {
   border: 1px solid #ddd; 
 }
 
-
+/* Buttons on Page 1 */
 
 .popular-december button {
     background-color: plum; 
@@ -272,5 +272,73 @@ section > div > div {
   }
 }
 
+/* Page 2 */
+
+.alternative-recipes{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
   
-  
+.alternative-recipes img {
+  width:347px;
+  height: 232px;
+  object-fit: cover;
+}
+
+/* Buttons on page 2 */
+.alternative-recipes button {
+  background-color: plum; 
+  color: white;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-color 0.3s ease; 
+  align-items: center;
+  justify-content: center;
+}
+
+.alternative-recipes button i {
+  margin-right: 8px;
+}
+
+.alternative-recipes button:hover {
+  background-color: pink; 
+}
+
+/* Comments */
+
+.user_comments{
+  display: inline-flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  text-align: center; 
+}
+
+
+.user_comments div{
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.left{
+  max-width: 10%;
+  border: none;
+  justify-content: center ;
+}
+
+.right{
+  max-width: 50%;
+  border: none;
+  justify-content: center;
+  align-items: flex-end;
+}
