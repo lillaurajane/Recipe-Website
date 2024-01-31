@@ -373,6 +373,40 @@ h4.username{
   text-align: left;
 }
 
+/* tips */
+
+.tips-header{
+  display: block;
+  width: 100%;
+}
+
+.tips-section{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tips-left .tips-right{
+  flex-direction: row;
+}
+
+.tips-left{
+  background-color: cornflowerblue;
+  margin: 20px;
+  color: white;
+  width: 45%;
+}
+
+.tips-right{
+  width: 35%;
+}
+
+.tips li{
+  padding: 20px;
+  text-align: left;
+}
+
+/* Fatima's Additions */
 
 .footer-container {
   background-color: lightpink;
