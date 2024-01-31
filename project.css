@@ -159,7 +159,7 @@ i {
 }
 
 body {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Lora', serif;
   margin: 0;
   padding: 0;
 }
@@ -357,3 +357,4 @@ h4.username{
 .comment{
   text-align: left;
 }
+
