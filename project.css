@@ -317,28 +317,43 @@ section > div > div {
 
 .user_comments{
   display: inline-flex;
-  justify-content: center; 
+  justify-content: flex-end; 
   align-items: center; 
   flex-direction: column; 
+  flex-wrap: wrap;
   text-align: center; 
-}
-
-
-.user_comments div{
-  /* border: 1px solid #ddd; */
   padding: 10px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .left{
-  max-width: 10%;
   border: none;
-  justify-content: center ;
+  width: 25%;
 }
 
 .right{
-  max-width: 50%;
+  width: 50%;
+ max-width: 600px;
+ min-width: 400px;
   border: none;
-  justify-content: center;
-  align-items: flex-end;
+  border: 1px solid #ddd;
+  align-content: flex-start;
+  
+}
+
+h4.username{
+  margin: 0;
+ text-align: left;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.user-icon{
+ max-width: 50px;
+ min-width: 20px;
+}
+
+.comment{
+  text-align: left;
 }
