@@ -164,6 +164,13 @@ body {
   padding: 0;
 }
 
+section {
+  margin: 20px;
+}
+
+section > img {
+  margin: 20px;
+}
 
 /* Section 1: Popular in December */
 section {
